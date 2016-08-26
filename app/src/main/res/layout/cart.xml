@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:minHeight="48dp"
+    android:background="@drawable/gradient"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/tv_selected_item_Iname"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:text="Iname"
+        />
+
+    <TextView
+        android:id="@+id/tv_selected_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Price" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="50dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv_subtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:text="100"/>
+
+</LinearLayout>
+
